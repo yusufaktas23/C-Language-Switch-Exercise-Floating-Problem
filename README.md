@@ -5,4 +5,3 @@ When i promted data, code is taking "enter" from past prompts as value. This cau
 I find a way to prevent this by using "%*c" on scanf.
 What i need to learn is "Can we prevent this by using another way?" Is there optional answer for this?
 I'm using replit for writing code, here is the link https://replit.com/languages/c  
--i will add my code file when i figure it how-
