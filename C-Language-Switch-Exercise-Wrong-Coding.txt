@@ -1,5 +1,5 @@
 /* Information
-Exercise wants astronaut to be;
+Exercise wants astronaut to be:
 1-Non-smoker.
 2-Between age, 26 to 46 years old.
 3-Between weights, 110 to 220 pounds.
