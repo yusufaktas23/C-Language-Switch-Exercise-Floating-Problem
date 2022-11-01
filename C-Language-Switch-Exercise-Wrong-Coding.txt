@@ -1,0 +1,56 @@
+//Information
+Exercise wants astronaut to be;
+1-Non-smoker.
+2-Between age, 26 to 46 years old.
+3-Between weights, 110 to 220 pounds.
+
+
+// Coding
+
+/* INCORRECT CODING */
+#include <stdio.h>
+int main()
+{
+double opt_min = 110; /* Min. astronaut weight in pounds */
+double opt_max = 220; /* Max. astronaut weight in pounds */
+double weight;
+  printf("Enter weight of astronaut in pounds> ");
+  scanf("%lf", &weight);
+double age_min = 26;
+double age_max = 46;
+double age;
+  printf("Enter age of astronaut> ");
+  scanf("%lf", &age);
+
+if(
+  (weight >= opt_min && weight <= opt_max)
+  &&(age >= age_min && age <=age_max)
+  )
+{
+}
+else
+{
+  printf("You haven't granted for being an astronaut.");
+  return 0;
+} 
+  
+char smokingCondition;
+  printf("Type 'Y' or 'N' depends on if you are smoker>\n ");
+  scanf("%c", &smokingCondition);
+  
+switch (smokingCondition)
+  {
+    case'Y':
+    printf("You haven't been granted for being an astronaut.\n");
+    break;
+
+    case'N':
+    printf("You have granted for being an astronaut.\n");
+    break;
+
+    default:
+    printf("You have entered invalid letter.\n");
+    break;
+  }
+  return 0;
+}
